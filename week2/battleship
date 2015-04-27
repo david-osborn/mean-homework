@@ -1,0 +1,41 @@
+// //Here, I declare my grid array.
+// var myGrid = [];
+
+// for (x = 0; x < 10; x++) {
+//    myGrid[x] = [];
+//   for (y = 0; y < 10; y++){
+//   	myGrid[x][y] = {
+//   		ship: false,
+//   		hit: false
+//   	};
+//   }
+  
+// }
+// console.log(myGrid)
+//this is the function for printing my grid to the console, in an orderly way.
+// function printgrid(){
+//   for (x=0; x<10; x++){ 
+//   	var line = [];
+//     for (y=0; y<10; y++){
+//     	if(myGrid[x][y]['hit'] === true){
+//     		if()
+//     		line.push("M");
+//     	}else{
+//     		line.push("O");
+//     	}
+
+//     }
+//       console.log(line);
+//   }
+// }
+
+// printgrid();
+
+var grid = [];
+for (x = 0; x < 10; x++) {
+   grid[x] = [];
+  for (y = 0; y < 10; y++){
+  	grid[x][y] = ((x) + "," + (y));
+  }            
+  	}
+console.log(grid);
